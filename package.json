@@ -1,0 +1,27 @@
+{
+  "name": "ai-ml",
+  "version": "1.0.0",
+  "description": "AI ML Projects",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "npx tailwindcss -i ./public/input.css -o ./output.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JinsoRaj/ai-ml.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JinsoRaj/ai-ml/issues"
+  },
+  "homepage": "https://github.com/JinsoRaj/ai-ml#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.3.2"
+  },
+  "dependencies": {
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.4"
+  }
+}
